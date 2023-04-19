@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign-up Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="wrapper">
+        <div class="hero-image">
+            <div class="logo-bar">
+                <img src="solar-house.png"
+                    alt="House PV logo" srcset="">
+                <h1>SolarMint</h1>
+            </div>
+        </div>
+
+        <main>
+            <section class="description">
+                <p>
+                    SolarMint helps all Solar businesses preserve their most precious resources: their
+                    time, their energy, and their ambition.
+                </p>
+                <br>
+                <p>
+                    To schedule a consultation or request more information about our services, please fill out
+                     the contact form below and we'll get back to you as soon as possible.
+                </p>
+            </section>
+
+            <form action="#">
+                <div class="form-container">
+                    <p>Let's do this!</p>
+
+                    <fieldset>
+                        <div class="form-cell">
+                            <label for="entreprise_name">Entreprise Name</label>
+                            <input type="text" name="entreprise_name" placeholder="SolarMint" id="entreprise_name">
+                        </div>
+                        <div class="form-cell">
+                            <label for="entreprise_location">Entreprise Location</label>
+                            <input type="text" id="entreprise_location" placeholder="Toulouse" name="entreprise_location">
+                        </div>
+                    </fieldset>
+
+                    <fieldset>
+                        <div class="form-cell">
+                            <label for="email">Email</label>
+                            <input type="email" name="email" placeholder="solarmint@solarmint.com" id="email">
+                        </div>
+                        <div class="form-cell">
+                            <label for="phone">Phone Number</label>
+                            <input type="text" placeholder="06/07" id="phone" name=" phone">
+                        </div>
+                    </fieldset>
+
+                    <fieldset>
+                        <div class="form-cell">
+                            <label for="password">Password</label>
+                            <input type="password" name="password" id="password">
+                        </div>
+                        <div class="form-cell">
+                            <label for="confirm_pw">Confirm Password</label>
+                            <input type="password" id="confirm_pw" name="confirm_pw">
+                        </div>
+                    </fieldset>
+                </div>
+
+                <div class="button-area">
+                    <button type="submit">Create Account</button>
+                    <p>Already have an account? <a href="#">Log in</a></p>
+                </div>
+            </form>
+        </main>
+    </div>
+
+</body>
+
+</html>
